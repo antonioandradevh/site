@@ -5,18 +5,26 @@
     letter-spacing: 2px;
 }
 body{
-    background-color: black;
+    background: #80039c;
+background: radial-gradient(circle, rgba(128,3,156,1) 0%, rgba(24,2,45,1) 73%);
 }
 h1{
     color: white;
-    margin-top: 350px;
+    margin-top: 300px;
     text-align: center;
 }
 h2{
     color: white;
     text-align: center;
 }
+
 a{
+    padding: 15px;
+    width: 175px;
+    border-style:solid ;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 55px;
     text-decoration: none;
     color: white;
     text-align: center;
@@ -24,4 +32,7 @@ a{
 }
 a:hover{
     text-decoration: underline;
+    color: #80039c;
+    border-color: white;
+    background-color: white;
 }
