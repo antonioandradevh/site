@@ -31,6 +31,7 @@ a{
     display: block;
 }
 a:hover{
+    transition: 0.5s;
     text-decoration: underline;
     color: #80039c;
     border-color: white;
