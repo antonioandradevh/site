@@ -7,8 +7,8 @@
     letter-spacing: 2px;
 }
 body{
-    background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+   background: #80039c;
+    background: radial-gradient(circle, rgba(128,3,156,1) 0%, rgba(24,2,45,1) 73%);
 }
 .container{
     display: flex;
