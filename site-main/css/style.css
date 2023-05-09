@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 20;
+    letter-spacing: 2px;
+}
+body{
+    background: rgb(241, 241, 241);
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+ .pfp{
+    border-radius: 120px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  14px 14px 27px #bebebe,
+                 -14px -14px 27px #ffffff;
+    max-width: 135px;
+    width: 100%;
+    margin-top: 175px;
+}
+.pfp img{
+    width: 100%;
+    vertical-align: middle;
+    border-radius: 50%;
+} 
+h1{
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+}
+h2{
+    color: black;
+    text-align: center;
+}
+a{
+    padding: 15px;
+    width: 175px;
+    border-radius: 20px;
+background: linear-gradient(145deg, #ffffff, #e3e3e3);
+box-shadow:  11px 11px 21px #d6d6d6,
+             -11px -11px 21px #ffffff;
+    margin: 0 auto;
+    margin-top: 55px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: block;
+}
+a img{
+    width: 100%;
+    max-width: 45px;
+}
+a:active{
+    transition: 2;
+    border-radius: 20px;
+background: #e0e0e0;
+box-shadow: inset 11px 11px 21px #bebebe,
+            inset -11px -11px 21px #ffffff;
+}
