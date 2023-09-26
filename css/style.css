@@ -135,9 +135,12 @@ input:checked+.slider:before {
   background: #1c1c1c;
   color: #fff;
 }
-
 .dark-theme {
   background: #1c1c1c;
+  color: #fff;
+}
+
+.dark-theme .title{
   color: #fff;
 }
 
