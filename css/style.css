@@ -37,6 +37,9 @@ h2{
     color: black;
     text-align: center;
 }
+a:hover {
+  background: #0000;
+}
 a{
     padding: 15px;
     width: 175px;
@@ -61,4 +64,98 @@ a:active{
 background: #e0e0e0;
 box-shadow: inset 11px 11px 21px #bebebe,
             inset -11px -11px 21px #ffffff;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 30px;
+  right: 110px;
+}
+
+.switch input {
+  display: none;
+}
+
+.switch {
+  position: fixed;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Estilos para o controle deslizante (slider) do botão */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+/* Estilos para quando o botão está ligado (On) */
+input:checked+.slider {
+  background-color: #2196f3;
+}
+
+input:checked+.slider:before {
+  transform: translateX(26px);
+}
+
+/* Estilos para a forma arredondada do botão */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Estilos para o tema escuro */
+.dark-theme {
+  background: #1c1c1c;
+  color: #fff;
+}
+
+.dark-theme {
+  background: #1c1c1c;
+  color: #fff;
+}
+
+.dark-theme a {
+  border-radius: 20px;
+  background: linear-gradient(145deg, #1e1e1e, #191919);
+  box-shadow: 11px 11px 21px #181818, -11px -11px 21px #202020;
+}
+
+.dark-theme a:active {
+  border-radius: 50px;
+  background: #1c1c1c;
+  box-shadow: inset 11px 11px 21px #181818, inset -11px -11px 21px #202020;
+}
+
+/* Adicione qualquer estilo adicional para os botões no modo escuro aqui */
+.dark-theme a:hover {
+  background: #0000;
+}
+
+.dark-theme .pfp {
+  border-radius: 50%;
+  background: linear-gradient(145deg, #1e1e1e, #191919);
+  box-shadow: 14px 14px 27px #0f0f0f, -14px -14px 27px #292929;
 }
